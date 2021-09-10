@@ -1,11 +1,14 @@
-.body {
+body {
     background: black;
     color: yellow;
-    font-family:'courier new'
+    margin: 0;
+    padding: 0;
+}
+.main {
+    font-family:'Times New Roman', Times, serif
     cursor: crosshair;
 }
 .main-title {
-    border: 5px dashed yellow;
     text-align: center;
     font-size: 24px;
 }
@@ -16,9 +19,21 @@
     border: 1px solid;
     padding: 10px;
     box-shadow: 5px 10px;
-    font-family: fantasy;
+    font-family: 'Times New Roman', Times, serif;
 }
 .fig-caption {
     font-size:12px;
+}
+.b {
+    transition: 0.25s ease-in;
     cursor: zoom-in;
+}
+.name{
+    border: 10px dashed;
+    border-radius: 10px;
+    margin-top: 80px ;
+    margin-bottom: 80px;
+    margin-left: 80px;
+    margin-right: 80px;
+    cursor: crosshair;
 }
