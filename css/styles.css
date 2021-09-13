@@ -44,6 +44,11 @@ body {
     transition: 0.25s ease-in;
     cursor: zoom-in;
 }
+.b img:active {
+    -webkit-transform: scale(2);
+    transform: scale(2);
+    cursor: zoom-out;
+}
 .name{
     border: 10px dashed;
     border-radius: 10px;
