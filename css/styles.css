@@ -5,9 +5,7 @@ nav li {
     display: inline;
     padding: 15px
 }
-a:hover {
-    background-color: red;
-}
+
 body {
     background: rgb(81, 84, 87);
     background-image: url(../images/lygifogo.gif);
