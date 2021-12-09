@@ -12,13 +12,18 @@ body {
 .main {
     color: black;
     font-family: 'Gloria Hallelujah', cursive;
+
 }
 .main-title {
     text-align: center;
     font-size: 24px;
+    width: 40em;
+    padding: 10px;
+    margin-left: 170px;
 }
 .header-two {
     text-align:center;
+    width: 80em;
 }
 #quote {
     position: relative;
@@ -33,12 +38,14 @@ body {
     border-radius: 100%;
 }
 .img-div {
+    width: 1%;
     position: absolute;
-    left: 1130px;
-    top: 540px;
+    left: 1125px;
+    top: 528px;
 }
 #about-me {
     text-align: center;
+    width: 80em;
 }
 .about-me {
     width: 70em;
@@ -57,6 +64,7 @@ body {
 
 .elijah {
     margin-bottom: 0px;
+    margin-top: 0px;
 }
 .header-two-div {
     margin-top: 0px;
@@ -64,6 +72,11 @@ body {
 
 .languages {
     text-align: center;
+    width: 69em;
+}
+
+.circles{
+    position: relative;
 }
 
 .lang-circles2, .lang-circles5, .lang-circles6, .lang-circles7{
@@ -72,8 +85,8 @@ body {
     position: absolute;
 }
 .lang-circles1 {
-    left: 380px;
-    top: 740px;
+    left: 375px;
+    top: 116px;
     width: 63px;
     height: 63px;
     border-radius: 100%;
@@ -87,8 +100,8 @@ body {
     left: 2.5px;
 }
 .lang-circles2 {
-    left: 430px;
-    top: 680px;
+    left: 425px;
+    top: 56px;
     width: 70px;
     height: 70px;
     background-color: #749f7d;
@@ -129,9 +142,8 @@ body {
     left: 23px;
 }
 .lang-circles5 {
-    left: 520px;
-    top: 800px;
-    left: 600px;
+    left: 595px;
+    top: 176px;
     width: 80px;
     height: 80px;
     background-color: #917d7d;
@@ -142,8 +154,8 @@ body {
     left: 25px;
 }
 .lang-circles6 {
-    left: 870px;
-    top: 770px;
+    left: 865px;
+    top: 146px;
     width: 120px;
     height: 120px;
     background-color: #978461;
@@ -154,8 +166,8 @@ body {
     left: 25px;
 }
 .lang-circles7 {
-    left: 720px;
-    top: 700px;
+    left: 715px;
+    top: 76px;
     width: 150px;
     height: 150px;
     text-align: center;
@@ -165,3 +177,15 @@ body {
     position: relative;
     top: 40px;
 }
+
+@media only screen and (max-width:500px) {
+    /* For mobile phones: */
+    .main, .circles {
+      width: 100%;
+    }
+  }
+
+#my-projects {
+    width: 80em
+      
+  }
