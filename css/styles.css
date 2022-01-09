@@ -1,14 +1,4 @@
-body {
-    /* background: rgb(81, 84, 87);
-    background-image: url(../images/lygifogo.gif); */
-    min-height: 100%;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-position: center;
-    background-size: 645px 645px;
-    margin: 5px;
-    padding: 0;
-}
+
 .main {
     color: black;
     font-family: 'Gloria Hallelujah', cursive;
