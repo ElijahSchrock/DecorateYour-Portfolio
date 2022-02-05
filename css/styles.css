@@ -9,16 +9,22 @@
     font-size: 24px;
     width: 40em;
     padding: 10px;
-    margin-left: 170px;
+    margin-left: 430px;
 }
 .header-two {
     text-align:center;
     width: 80em;
+    margin-left: 280px;
+}
+#comp {
+    position: absolute;
+    left: 12em;
+    bottom: 21em;
 }
 #quote {
     position: relative;
     text-align: center;
-    left: 450px;
+    left: 680px;
     border: 1px solid;
     width: 40em;
     background-color: #E7F0EA;
@@ -30,19 +36,21 @@
 .img-div {
     width: 1%;
     position: absolute;
-    left: 1125px;
+    left: 1425px;
     top: 528px;
 }
 #about-me {
     text-align: center;
     width: 80em;
+    position: relative;
+    left: 260px;
 }
 .about-me {
     width: 70em;
     text-align: left;
     border: 1px solid;
     padding: 10px;
-    margin-left: 50px;
+    margin-left: 340px;
     margin-right: 50px;
     background-color: #E7F0EA;
     font-family: 'Zen Kaku Gothic Antique', sans-serif;
@@ -61,12 +69,14 @@
 }
 
 .languages {
-    text-align: center;
-    width: 69em;
+    position: relative;
+    left: 610px;
 }
 
 .circles{
     position: relative;
+    left: 12%;
+    top: 50%;
 }
 
 .lang-circles2, .lang-circles5, .lang-circles6, .lang-circles7{
@@ -83,6 +93,7 @@
     position: absolute;
     border: 1px solid;
     background-color: #f2d492;
+
 }
 .lang1 {
     position: relative;
@@ -168,14 +179,72 @@
     top: 40px;
 }
 
-@media only screen and (max-width:500px) {
-    /* For mobile phones: */
-    .main, .circles {
-      width: 100%;
-    }
-  }
+#feature {
+    text-align: center;
+}
+
+#RFID, #Neo, #eats {
+    border: 1px solid;
+}
+
+#corner1 {
+    position: absolute;
+    right: 27%;
+    top: 97%;
+}
+
+#corner2 {
+    position: absolute;
+    right: 95.8%;
+    top: 97%;
+}
+
+#corner3 {
+    position: absolute;
+    right: 61.4%;
+    top: 97%;
+}
 
 #my-projects {
-    width: 80em
-      
+    display: flex;
+    flex-direction: row;     
+    flex-wrap: nowrap;
+    justify-content: space-between;
+  }
+  
+  #my-projects > section {
+    width: 30vw;
+    height: 15vw;
+    border: 1px solid black;
+    text-align: center;
+    background-color: #E7F0EA;
+    font-family: 'Zen Kaku Gothic Antique', sans-serif;
+
+  }
+
+  #feature-title {
+    font-family: 'Gloria Hallelujah', cursive;
+  }
+
+  a {
+    text-decoration: none;
+    color: #6883b5;
+  }
+
+  footer {
+    text-align: center;
+    height: 50px;
+    margin-top: 20px;
+  }
+
+  footer > p {
+    display: inline;
+    margin-bottom: 0;
+  }
+
+  footer > a {
+      position: relative;
+      top: 8px;
+      padding-right: 5px;
+      padding-left: 13px;
   }

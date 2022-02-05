@@ -12,7 +12,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Zen+Kaku+Gothic+Antique&display=swap" rel="stylesheet">
-</head>
+  </head>
 <body>
   <div class="main">
   <div class="main-title">
@@ -26,7 +26,10 @@
     <h2 class= "header-two-div">
       Software Developer
     </h2>
-  </div> 
+  </div>
+  <div id="comp">
+    <img  id='comp' src='./images/comp.png' height="200px" width="200px">
+  </div>
     <div id="quote">
       <p>"My absolute <i>favorite</i> thing about programming is the never ending problem solving and technical thinking that it takes to come up with solutions."</p>
     </div>
@@ -69,45 +72,37 @@
       <p class='lang7'>JavaScript</p>
     </div>
   </div>
-  <div id="my-projects">
-    <h3>
-      My Projects
+    <h3 id="feature">
+      My Featured Projects
     </h3>
-    <p>More Projects Coming Soon!</p>
-      <ul>
-        <li>RFID Controlled Wooden Jewelry Box</li>
-          <ul>
-            <li>This is a wooden box that I made for my wife as her wedding gift. With Walnut wood as the base and Cherry wood as the lid, I programmed an Arduino Nano to use RFID and upon scanning, the box lid will lift open via sg90 servo and 3D printed arms that I have created. I soldered all the hardware together and included a 9v battery connector so the system can be turned off and on by disconecting the battery.</li>
-          </ul>
-            <ul><a href="https://github.com/ElijahSchrock/RFID-Wooden-Jewelry-Box" target="_blank">
-              <b>Click here to view my GitHub Repository</b>
+    <div id="my-projects">
+    <section id="RFID">
+      <img id='corner1' src='./images/cornerpaper.png' width="100px" height="150px">
+            <a href="https://github.com/ElijahSchrock/RFID-Wooden-Jewelry-Box" target="_blank">
+              <h3 id="feature-title">RFID Controlled Wooden Jewelry Box</h3>
             </a>
-          </ul>
-        <li> A Mock Website For a Restaurant I Created</li>
-          <ul>
-            <li>This is a website I coded from scratch utlizing HTML and CSS. All links are clickable and the contact information will redirect and start an email, phone call, or even pull a google maps location so you can get directions to this mock restaurant. Clicking the logo on the top of the page will take you back to the home page.</li>
-          </ul>
-            <ul><a href="https://elijahschrock.github.io/Restaurant-Project/" target="_blank"><b>Click here to view the website</b></a>
-            </ul>
-        <li>Neo Runner: A Three.js Game</li>
-          <ul>
-            <li>This is a game I built called 'Neo Runner'. It is an endless runner style game with obstacles to dodge, points to be collected, and a leaderboard to top! Using Node.js, Express, and SQLite I built a server and database to collect the scores of each player and then display the top 10 high scores on the game-over page. This was a very fun project utilizing Three.js, DOM Manipulation, HTML, CSS and many more techniques. If you'd like to view my code on github <a href="https://github.com/ElijahSchrock/Neo-Runner" target="_blank"><b>Click Here</b></a> and if you would like to play the game, click the Neo Runner down below!</li>
-          </ul>
-            <ul><a href="https://neorunner.herokuapp.com" target='_blank'><b>Neo Runner</b></a>
-          </ul>
+            <p>This is a wooden box that I made for my wife as her wedding gift. With Walnut wood as the base and Cherry wood as the lid, I programmed an Arduino Nano to use RFID and upon scanning, the box lid will lift open via sg90 servo and 3D printed arms that I have created. I soldered all the hardware together and included a 9v battery connector so the system can be turned off and on by disconecting the battery.</p>
+        </section>
+        <section id="eats">
+          <img id='corner2' src='./images/cornerpaper.png' width="100px" height="150px">
+              <a href="https://elijahschrock.github.io/Restaurant-Project/" target="_blank">
+                <h3 id="feature-title">A Mock Website For a Restaurant I Created</h3>
+              </a>
+              <p>This is a website I coded from scratch utlizing HTML and CSS. All links are clickable and the contact information will redirect and start an email, phone call, or even pull a google maps location so you can get directions to this mock restaurant. Clicking the logo on the top of the page will take you back to the home page.</p>
+          </section>
+        <section id="Neo">
+          <img id='corner3' src='./images/cornerpaper.png' width="100px" height="150px">
+            <a href="https://neorunner.herokuapp.com" target='_blank'>
+                <h3 id="feature-title">Neo Runner: A Three.js Game</h3>
+              </a>
+                <p>This is a game I built called 'Neo Runner'. It is an endless runner style game with obstacles to dodge, points to be collected, and a leaderboard to top! Using Node.js, Express, and SQLite I built a server and database to collect the scores of each player and then display the top 10 high scores on the game-over page. This was a very fun project utilizing Three.js, DOM Manipulation, HTML, CSS and many more techniques. If you'd like to view my code on github <a href="https://github.com/ElijahSchrock/Neo-Runner" target="_blank"><b>Click Here</b></a> and if you would like to play the game, click the Neo Runner title above!</p>
+        </section>
     </div>
-  <div id="contact-info">
-    <h3>
-      Contact Me
-    </h3>
-    <div class="contact-cursor">
-      <p><b>Phone:</b><a href="tel:7027522318">(702)-752-2318</a></p>
-      <a href= mailto:etelles98@gmail.com>
-      <b>Email:</b>etelles98@gmail.com
-      </a>
-  </div>
-    </div>
-  </div>
+    <footer>
+            <a href="tel:7027522318"><img src="./images/phone.svg" width="30px" height="30px"><p><b>(702)-752-2318</a></b></p>
+            <a href= mailto:etelles98@gmail.com><img src="./images/email.svg" width="30px" height="30px"><p><b>etelles98@gmail.com</a></b></p>
+            <a href= https://github.com/ElijahSchrock target='_blank'><img src="./images/github-brands.svg" width="30px" height="30px"><p><b>ElijahSchrock</a></b></p>
+    </footer>
   </div>
 </body>
 </html>
