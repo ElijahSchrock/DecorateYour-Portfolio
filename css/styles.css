@@ -42,7 +42,7 @@
     .img-div {
         width: 1%;
         position: absolute;
-        left: 350vw;
+        left: 310vw;
         top: 89vh;
     }
     #about-me {
@@ -199,19 +199,19 @@
     #corner1 {
         position: absolute;
         right: 64vw;
-        top: 280vw;
+        top: 300vw;
     }
 
     #corner2 {
         position: absolute;
         right: 64vw;
-        top: 450vw;
+        top: 470vw;
     }
 
     #corner3 {
         position: absolute;
         right: 64vw;
-        top: 620vw;
+        top: 640vw;
     }
 
     #my-projects {
